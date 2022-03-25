@@ -36,6 +36,7 @@ void perform_test() {
 	
 	// since we can only do the operation at most once, it's either we try swapping the
 	// smallest value in the odd sequence from the largest value in the even sequence
+	// or not doing any operation at all (because it only decreased the total value)
 	// by doing so,
 	
 	// let a = element in odd sequence, b = element in the even sequence
