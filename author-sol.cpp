@@ -25,7 +25,7 @@ void perform_test() {
 		s0 += x;
 		a = min(a, x);
 	}
-	// let s1 = -a[2] - a[4] - a[6] - ... - a[m], where i is even
+	// let s1 = -a[2] - a[4] - a[6] - ... - a[m], where m is even
 	for(auto& x : even) {
 		s1 += x;
 		b = max(b, x);
