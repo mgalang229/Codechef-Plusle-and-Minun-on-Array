@@ -43,7 +43,7 @@ void perform_test() {
 	// s0 = s0 - a + b
 	// s1 = s1 - b + a
 	
-	// initial sum = s0 + s1
+	// initial sum = s0 - s1
 	// initial sum = (s0 - a + b) - (s1 - b + a)
 	// initial sum = s0 - a + b - s1 + b - a
 	// initial sum = s0 - s1 + 2b - 2a
