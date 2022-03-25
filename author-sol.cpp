@@ -8,7 +8,7 @@ void perform_test() {
 	for(int i = 0; i < n; i++) {
 		cin >> vec[i];
 	}
-	// separate the elements from odd indices and even indices (1-based(
+	// separate the elements from odd indices and even indices (1-based)
 	vector<long long> odd, even;
 	for(int i = 0; i < n; i++) {
 		if((i + 1) & 1) {
